@@ -6,7 +6,7 @@ const dayOfTheWeek = (date = new Date()) => {
 const monthOfTheYear = (date = new Data()) => {
   const month = ['January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'];
-  return month[data.getMonth()];
+  return month[date.getMonth()];
 }
 
 
